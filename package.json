@@ -34,7 +34,9 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
+    "@playwright/test": "^1.42.1",
     "@stencil/core": "^4.7.0",
+    "@stencil/playwright": "^0.1.0-dev.1710793791.3353b57",
     "@types/jest": "^29.5.6",
     "@types/node": "^16.18.11",
     "jest": "^29.7.0",

@@ -4,7 +4,7 @@ import { test } from '@stencil/playwright';
 test.describe('my-component', () => {
   test('should allow page.goto', async ({ page }) => {
     // The path here is the path to the www output relative to the dev server root directory
-    await page.goto('src/components/my-component/test/my-component.e2e.html');
+    await page.goto('/components/my-component/test/my-component.e2e.html');
     await expect(page.locator("div")).toHaveText(
       "Hello, World! I'm Stencil"
     )
